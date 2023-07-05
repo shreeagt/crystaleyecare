@@ -426,10 +426,10 @@ color:#B6D66C;
 /* 02 - Background Color 
 /*----------------------------------------*/
  body .pbmit-bg-color-global{
- background-color:#B6D66C;
-background-color:#B6D66C;
-background-color:#B6D66C;
-color:#B6D66C;
+ background-color:#7FC2D7 ;
+background-color:#7FC2D7 ;
+background-color:#7FC2D7;
+color:#7FC2D7;
 }
  body .pbmit-bg-color-secondary{
      background-color: var(--pbmit-secondary-color);
@@ -838,10 +838,10 @@ body .scroll-to-top {
     line-height: 40px;
     font-size: 33px; 
     border-radius: 50%;
-background-color:#B6D66C;
-background-color:#B6D66C;
-background-color:#B6D66C;
-color:#B6D66C;
+background-color:#7FC2D7 ;
+background-color:#7FC2D7 ;
+background-color:#7FC2D7 ;
+color:#7FC2D7 ;
     text-align: center;
     border: 3px solid #eeeeee;
     color: #fff;
