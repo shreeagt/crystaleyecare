@@ -385,6 +385,8 @@ background-color:#B6D66C;
 background-color:#B6D66C;
 color:#B6D66C;
 color:#fff;
+padding:8px 12px;
+line-height: 1.5;
 }
  .pbmit-btn-hover-secondary:hover, .pbmit-btn.pbmit-btn-secondary{
      background-color: var(--pbmit-blackish-color);

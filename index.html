@@ -59,6 +59,229 @@
 
     margin: 0px 39px;
 }
+
+.imgRow {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.imgRow > div {
+  width: 33.3%;
+  padding: 30px 15px 0px 15px;
+  box-sizing: border-box;
+}
+
+.imgRow img {
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+}
+
+.section {
+    position: relative
+}
+
+.section_wrapper {
+    max-width: 1220px;
+    margin: 0 auto;
+    position: relative
+}
+
+.section.full-width > .section_wrapper {
+    max-width: 100%!important;
+    padding-left: 0!important;
+    padding-right: 0!important
+}
+
+.section_wrapper:after,.container:after {
+    clear: both;
+    content: " ";
+    display: block;
+    height: 0;
+    visibility: hidden
+}
+
+.mcb-wrap {
+    float: left;
+    position: relative;
+    z-index: 1;
+    box-sizing: border-box
+}
+
+.mcb-wrap.move-up {
+    z-index: 28
+}
+
+.mcb-wrap.divider {
+    width: 100%;
+    height: 0!important
+}
+
+.column,.columns {
+    float: left;
+    margin: 0 1% 40px
+}
+
+.one-sixth.mcb-wrap {
+    width: 16.666%;
+}
+
+/* 1/6 */
+.one-fifth.mcb-wrap {
+    width: 20%;
+}
+
+/* 1/5 */
+.one-fourth.mcb-wrap {
+    width: 25%;
+}
+
+/* 1/4 */
+.one-third.mcb-wrap {
+    width: 33.333%;
+}
+
+/* 1/3 */
+.two-fifth.mcb-wrap {
+    width: 40%;
+}
+
+/* 2/5 */
+.one-second.mcb-wrap {
+    width: 50%;
+}
+
+/* 1/2 */
+.three-fifth.mcb-wrap {
+    width: 60%;
+}
+
+/* 3/5 */
+.two-third.mcb-wrap {
+    width: 66.666%;
+}
+
+/* 2/3 */
+.three-fourth.mcb-wrap {
+    width: 75%;
+}
+
+/* 3/4 */
+.four-fifth.mcb-wrap {
+    width: 80%;
+}
+
+/* 4/5 */
+.five-sixth.mcb-wrap {
+    width: 83.333%;
+}
+
+/* 5/6 */
+.one.mcb-wrap {
+    width: 100%;
+}
+
+/* 1/1 */
+/* .column */
+.one-sixth.column {
+    width: 14.666%;
+}
+
+/* 1/6 */
+.one-fifth.column {
+    width: 18%;
+}
+
+/* 1/5 */
+.one-fourth.column, .four.columns {
+    width: 23%;
+}
+
+/* 1/4 */
+.one-third.column {
+    width: 31.333%;
+}
+
+/* 1/3 */
+.two-fifth.column {
+    width: 38%;
+}
+
+/* 2/5 */
+.one-second.column {
+    width: 48%;
+}
+
+/* 1/2 */
+.three-fifth.column {
+    width: 58%;
+}
+
+/* 3/5 */
+.two-third.column {
+    width: 64.666%;
+}
+
+/* 2/3 */
+.three-fourth.column {
+    width: 73%;
+}
+
+/* 3/4 */
+.four-fifth.column {
+    width: 78%;
+}
+
+/* 4/5 */
+.five-sixth.column {
+    width: 81.333%;
+}
+
+/* 5/6 */
+.one.column {
+    width: 98%;
+}
+
+img.scale-with-grid,#Content img {
+    max-width: 100%;
+    height: auto
+}
+
+.google-map img {
+    max-width: none!important
+}
+
+iframe {
+    max-width: 100%
+}
+
+.services-block-container {
+  display: inline-block;
+  width: 250px;
+  margin: 10px;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.services-image-tag {
+  width: 100%;
+  height: auto;
+  max-width: 250px;
+  max-height: 250px;
+  border-radius: 15px;
+  object-fit: cover;
+}
+
+.services-block-container .services-column {
+    height: 100%;
+    width: 100%;
+    display: table;
+    padding-bottom: 15px
+}
+
    </style>
    <body data-aos-easing="ease" data-aos-duration="400" data-aos-delay="0">
       <!-- page wrapper -->
@@ -271,6 +494,460 @@
                </div>
             </div>
          </section>
+         <div class="section mcb-section  no-margin-h  " style="padding-top:0px; padding-bottom:0px; background-color:#ffffff">
+            <div class="section_wrapper mcb-section-inner">
+               <div class="wrap mcb-wrap one  valign-top clearfix" style="">
+                  <div class="mcb-wrap-inner"><div class="column mcb-column one-third column_column ">
+                     <div class="column_attr clearfix align_center" style=" background-color:#476BA1; padding:25px; border-bottom: 20px solid #476BA1;">
+                        <img class="scale-with-grid" src="https://eyecarehospital.org/wp-content/uploads/2018/08/home_vision_advantage_icon1.png" alt="">
+            <h2><span style="color: #ffffff;">Complex</span><br>
+            <span style="color: #ffffff;">Eye Surgeries</span></h2>
+         </div>
+      </div>
+      <div class="column mcb-column one-third column_column ">
+         <div class="column_attr clearfix align_center" style=" background-color:#476BA1; padding:25px; border-bottom: 20px solid #476BA1;">
+            <img class="scale-with-grid" src="https://eyecarehospital.org/wp-content/uploads/2018/08/home_vision_advantage_icon2.png" alt="">
+            <h2><span style="color: #ffffff;">Tests</span><br>
+            <span style="color: #ffffff;">and Consulting</span></h2>
+         </div>
+      </div>
+      <div class="column mcb-column one-third column_column ">
+         <div class="column_attr clearfix align_center" style=" background-color:#476BA1; padding:25px; border-bottom: 20px solid #476BA1;">
+            <img class="scale-with-grid" src="https://eyecarehospital.org/wp-content/uploads/2018/08/home_vision_advantage_icon3.png" alt="">
+            <h2><span style="color: #ffffff;">Newest</span><br>
+            <span style="color: #ffffff;">Technology</span></h2></div>
+         </div>
+      </div>
+   </div>
+</div>
+</div>
+<center>
+   <h1>Treatments For</h1>
+</center>
+<div class="custom-template bootstrap-iso clearfix" style="background-color:rgba(255, 255, 255, 1);padding-top:20px;padding-bottom:65px">
+   <div class="container-fluid">
+      <div class="row">
+         <!-- <div class="header-subheader jd-font-roboto">
+            <div class=" align-center editable-content-holder  ">
+               <div class="main-header main-header align-center font-size-36 bold editable-content" style="color: rgb(51, 51, 51); font-family: Cinzel; line-height: 1.4; border-color: rgb(51, 51, 51); border-style: none; border-width: 0px; border-radius: 0px; letter-spacing: -0.1px; background-color: rgba(0, 0, 0, 0);">Treatments For</div>
+            </div>
+         </div> -->
+         <div class="col-md-12 col-xs-12 align-center">
+            <div class="services-block-slider marginT5" style="display:flex;flex-wrap:wrap;justify-content:center;margin-top:10px">
+               <div class="services-block-container marginB20" style="width:20%" data-index="0">
+                  <div class="col-md-12 services-column">
+                     <div class="marginT10 clearfix"><div class="editable-image-holder  editable-image-holder services-image dynamic-block-image">
+                        <a href="javascript:void(0)" class=" link-content"><div class="editable-content  align-center not-editable  marginB15  " style="">
+                           <img src="https://image3.jdomni.in/library/1C/CC/CF/1A0F184586F9CA0F8184B6D0E6_1496265111271_cropped_450X450.jpeg" style="color:rgb(51, 51, 51);width:100%;height:auto;max-width:280px;max-height:250px;border-color:rgb(204, 204, 204);border-style:none;border-width:0px;border-radius:15px;background-color:rgba(0, 0, 0, 0)" alt="" class="services-image-tag img-loaded">
+                        </div>
+                     </a>
+                  </div>
+               </div>
+               <div class="marginT10 clearfix">
+                  <div class="content para-1 editable-content-holder  ">
+                  <a href="javascript:void(0)" class=" link-content">
+                     <div class="not-editable para-1 align-center font-size-22 bold not-editable para-1 editable-content" style="color: rgb(51, 51, 51); font-family: Muli; line-height: 1.4; border-color: rgb(51, 51, 51); border-style: none; border-width: 0px; border-radius: 0px; letter-spacing: 0px; background-color: rgba(0, 0, 0, 0);" contenteditable="false">Computerised Eye Testing Clinics</div>
+                  </a>
+               </div>
+            </div>
+            <div class="clearfix services-desc">
+               <div class="content para-2 editable-content-holder  ">
+               <a href="javascript:void(0)" class=" link-content">
+                  <div class="not-editable para-2 font-size-16 align-center not-editable para-2 editable-content" style="color: rgb(51, 51, 51); font-family: Muli; line-height: 1.4; border-color: rgb(51, 51, 51); border-style: none; border-width: 0px; border-radius: 0px; letter-spacing: 0px; background-color: rgba(0, 0, 0, 0);" contenteditable="false">We care for your eyes. Get your eyes tested at our Computerised eye testing clinics for clearer vision. </div>
+               </a>
+               </div>
+            </div>
+            <div class="clearfix enquire-btn">
+               <div class="editable-content-holder editable-button linked-sectionundefined ">
+               <a href="javascript:void(0)" class=" link-content">
+                  <div class="editable-content">
+                  <div class="btn button link-button block-btn btn-sm " style="font-family:Muli;line-height:1.4;border-style:solid;border-width:1px;border-radius:30px;letter-spacing:0">Enquire Now</div>
+               </div>
+            </a>
+         </div>
+               </div>
+            </div>
+         </div>
+         <div class="services-block-container marginB20" style="width:20%" data-index="1">
+            <div class="col-md-12 services-column">
+               <div class="marginT10 clearfix">
+                  <div class="editable-image-holder  editable-image-holder services-image dynamic-block-image">
+                     <a href="javascript:void(0)" class=" link-content">
+                        <div class="editable-content  align-center not-editable  marginB15  " style="">
+               <img src="https://image1.jdomni.in/library/2A/72/E5/5043DDD99BA50714D89863F0B8_1496334981797_cropped_450X450.jpeg" style="color:rgb(51, 51, 51);width:100%;height:auto;max-width:280px;max-height:250px;border-color:rgb(204, 204, 204);border-style:none;border-width:0px;border-radius:15px;background-color:rgba(0, 0, 0, 0)" alt="" class="services-image-tag img-loaded">
+            </div>
+         </a>
+      </div>
+   </div>
+   <div class="marginT10 clearfix">
+      <div class="content para-1 editable-content-holder  ">
+      <a href="javascript:void(0)" class=" link-content">
+         <div class="not-editable para-1 align-center font-size-22 bold not-editable para-1 editable-content" style="color: rgb(51, 51, 51); font-family: Muli; line-height: 1.4; border-color: rgb(51, 51, 51); border-style: none; border-width: 0px; border-radius: 0px; letter-spacing: 0px; background-color: rgba(0, 0, 0, 0);" contenteditable="false">Eye Doctors</div>
+      </a>
+   </div>
+</div>
+<div class="clearfix services-desc">
+   <div class="content para-2 editable-content-holder  ">
+   <a href="javascript:void(0)" class=" link-content">
+      <div class="not-editable para-2 font-size-16 align-center not-editable para-2 editable-content" style="color: rgb(51, 51, 51); font-family: Muli; line-height: 1.4; border-color: rgb(51, 51, 51); border-style: none; border-width: 0px; border-radius: 0px; letter-spacing: 0px; background-color: rgba(0, 0, 0, 0);" contenteditable="false">By our expert team of eye doctors get treated your eye problems. We also do  successful laser eye operations.</div>
+   </a>
+</div>
+</div>
+<div class="clearfix enquire-btn">
+   <div class="editable-content-holder editable-button linked-sectionundefined ">
+   <a href="javascript:void(0)" class=" link-content">
+      <div class="editable-content">
+         <div class="btn button link-button block-btn btn-sm " style="font-family:Muli;line-height:1.4;border-style:solid;border-width:1px;border-radius:30px;letter-spacing:0">Enquire Now</div>
+   </div>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="services-block-container marginB20" style="width:20%" data-index="2">
+   <div class="col-md-12 services-column">
+      <div class="marginT10 clearfix">
+      <div class="editable-image-holder  editable-image-holder services-image dynamic-block-image">
+         <a href="javascript:void(0)" class=" link-content">
+            <div class="editable-content  align-center not-editable  marginB15  " style="">
+            <img src="https://image2.jdomni.in/library/73/06/46/184F950F2ED4F2EABC8D6B23C3_1496263491944_cropped_450X450.jpeg" style="color:rgb(51, 51, 51);width:100%;height:auto;max-width:280px;max-height:250px;border-color:rgb(204, 204, 204);border-style:none;border-width:0px;border-radius:15px;background-color:rgba(0, 0, 0, 0)" alt="" class="services-image-tag img-loaded"></div>
+         </a>
+      </div>
+   </div>
+   <div class="marginT10 clearfix">
+      <div class="content para-1 editable-content-holder  ">
+      <a href="javascript:void(0)" class=" link-content">
+         <div class="not-editable para-1 align-center font-size-22 bold not-editable para-1 editable-content" style="color: rgb(51, 51, 51); font-family: Muli; line-height: 1.4; border-color: rgb(51, 51, 51); border-style: none; border-width: 0px; border-radius: 0px; letter-spacing: 0px; background-color: rgba(0, 0, 0, 0);" contenteditable="false">Eye Hospitals</div>
+      </a>
+   </div>
+</div>
+<div class="clearfix services-desc">
+   <div class="content para-2 editable-content-holder  ">
+   <a href="javascript:void(0)" class=" link-content">
+      <div class="not-editable para-2 font-size-16 align-center not-editable para-2 editable-content" style="color: rgb(51, 51, 51); font-family: Muli; line-height: 1.4; border-color: rgb(51, 51, 51); border-style: none; border-width: 0px; border-radius: 0px; letter-spacing: 0px; background-color: rgba(0, 0, 0, 0);" contenteditable="false">Experiencing discomfort in your eye? Consult a Doctor now. We provide best eye care hospitals.</div>
+   </a>
+</div>
+</div>
+<div class="clearfix enquire-btn">
+   <div class="editable-content-holder editable-button linked-sectionundefined ">
+      <a href="javascript:void(0)" class=" link-content">
+         <div class="editable-content">
+            <div class="btn button link-button block-btn btn-sm " style="font-family:Muli;line-height:1.4;border-style:solid;border-width:1px;border-radius:30px;letter-spacing:0">Enquire Now</div>
+         </div>
+      </a>
+   </div>
+</div>
+</div>
+</div>
+<div class="services-block-container marginB20" style="width:20%" data-index="3">
+   <div class="col-md-12 services-column">
+      <div class="marginT10 clearfix">
+         <div class="editable-image-holder  editable-image-holder services-image dynamic-block-image">
+            <a href="javascript:void(0)" class=" link-content">
+               <div class="editable-content  align-center not-editable  marginB15  " style="">
+                  <img src="https://image3.jdomni.in/library/FA/0C/1D/29C1D0D7966E10369A07904755_1496332851590_cropped_450X450.jpeg" style="color:rgb(51, 51, 51);width:100%;height:auto;max-width:280px;max-height:250px;border-color:rgb(204, 204, 204);border-style:none;border-width:0px;border-radius:15px;background-color:rgba(0, 0, 0, 0)" alt="" class="services-image-tag img-loaded"></div>
+               </a>
+            </div>
+         </div>
+         <div class="marginT10 clearfix">
+            <div class="content para-1 editable-content-holder  ">
+               <a href="javascript:void(0)" class=" link-content">
+                  <div class="not-editable para-1 align-center font-size-22 bold not-editable para-1 editable-content" style="color: rgb(51, 51, 51); font-family: Muli; line-height: 1.4; border-color: rgb(51, 51, 51); border-style: none; border-width: 0px; border-radius: 0px; letter-spacing: 0px; background-color: rgba(0, 0, 0, 0);" contenteditable="false">Eye Testing Clinics</div>
+               </a>
+            </div>
+         </div>
+         <div class="clearfix services-desc">
+            <div class="content para-2 editable-content-holder  ">
+               <a href="javascript:void(0)" class=" link-content">
+                  <div class="not-editable para-2 font-size-16 align-center not-editable para-2 editable-content" style="color: rgb(51, 51, 51); font-family: Muli; line-height: 1.4; border-color: rgb(51, 51, 51); border-style: none; border-width: 0px; border-radius: 0px; letter-spacing: 0px; background-color: rgba(0, 0, 0, 0);" contenteditable="false">We have a state of the art eye testing clinic for your sight related issues and we provide diagnosis.  </div>
+               </a>
+            </div>
+         </div>
+         <div class="clearfix enquire-btn">
+            <div class="editable-content-holder editable-button linked-sectionundefined ">
+               <a href="javascript:void(0)" class=" link-content">
+                  <div class="editable-content">
+                     <div class="btn button link-button block-btn btn-sm " style="font-family:Muli;line-height:1.4;border-style:solid;border-width:1px;border-radius:30px;letter-spacing:0">Enquire Now</div>
+                  </div>
+               </a>
+            </div>
+         </div>
+      </div>
+   </div>
+   <!-- <div class="services-block-container marginB20" style="width:20%" data-index="4">
+      <div class="col-md-12 services-column">
+         <div class="marginT10 clearfix">
+            <div class="editable-image-holder  editable-image-holder services-image dynamic-block-image">
+               <a href="javascript:void(0)" class=" link-content">
+                  <div class="editable-content  align-center not-editable  marginB15  " style="">
+                     <img src="https://image3.jdomni.in/banner/29022020/37/20/41/76319C6D8651178228D6183CA2_1582973520766.jpg?output-format=webp" style="color:rgb(51, 51, 51);width:100%;height:auto;max-width:280px;max-height:250px;border-color:rgb(204, 204, 204);border-style:none;border-width:0px;border-radius:15px;background-color:rgba(0, 0, 0, 0)" alt="" class="services-image-tag img-loaded"></div>
+                  </a>
+               </div>
+            </div> -->
+            <!-- <div class="marginT10 clearfix">
+               <div class="content para-1 editable-content-holder  ">
+                  <a href="javascript:void(0)" class=" link-content">
+                     <div class="not-editable para-1 align-center font-size-22 bold not-editable para-1 editable-content" style="color: rgb(51, 51, 51); font-family: Muli; line-height: 1.4; border-color: rgb(51, 51, 51); border-style: none; border-width: 0px; border-radius: 0px; letter-spacing: 0px; background-color: rgba(0, 0, 0, 0);" contenteditable="false">Cataract Treatment</div>
+                  </a>
+               </div>
+            </div>
+            <div class="clearfix services-desc">
+               <div class="content para-2 editable-content-holder  ">
+                  <a href="javascript:void(0)" class=" link-content">
+                     <div class="not-editable para-2 font-size-16 align-center not-editable para-2 editable-content" style="color: rgb(51, 51, 51); font-family: Muli; line-height: 1.4; border-color: rgb(51, 51, 51); border-style: none; border-width: 0px; border-radius: 0px; letter-spacing: 0px; background-color: rgba(0, 0, 0, 0);" contenteditable="false">We are widely recognized for excellence in providing cataract treatment &amp; surgery. With successful cataract treatment your vision will be clearer, brighter and sharper just like before.</div>
+                  </a>
+               </div>
+            </div>
+            <div class="clearfix enquire-btn">
+               <div class="editable-content-holder editable-button linked-sectionundefined ">
+                  <a href="javascript:void(0)" class=" link-content">
+                     <div class="editable-content">
+                        <div class="btn button link-button block-btn btn-sm " style="font-family:Muli;line-height:1.4;border-style:solid;border-width:1px;border-radius:30px;letter-spacing:0">Enquire Now</div>
+                     </div>
+                  </a>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="services-block-container marginB20" style="width:20%" data-index="5">
+         <div class="col-md-12 services-column">
+            <div class="marginT10 clearfix">
+               <div class="editable-image-holder  editable-image-holder services-image dynamic-block-image">
+                  <a href="javascript:void(0)" class=" link-content">
+                     <div class="editable-content  align-center not-editable  marginB15  " style="opacity: 0; transition-duration: 0ms;">
+                        <img src="https://image3.jdomni.in/banner/29022020/AC/A7/FC/01730203E6CC6EDCE3DF95BF8B_1582973550420.jpg?output-format=webp" style="color:rgb(51, 51, 51);width:100%;height:auto;max-width:250px;max-height:250px;border-color:rgb(204, 204, 204);border-style:none;border-width:0px;border-radius:15px;background-color:rgba(0, 0, 0, 0)" alt="" class="services-image-tag img-loaded"></div>
+                     </a>
+                  </div>
+               </div>
+               <div class="marginT10 clearfix">
+                  <div class="content para-1 editable-content-holder  ">
+                     <a href="javascript:void(0)" class=" link-content">
+                        <div class="not-editable para-1 align-center font-size-22 bold not-editable para-1 editable-content" style="color: rgb(51, 51, 51); font-family: Muli; line-height: 1.4; border-color: rgb(51, 51, 51); border-style: none; border-width: 0px; border-radius: 0px; letter-spacing: 0px; background-color: rgba(0, 0, 0, 0); opacity: 0; transition-duration: 0ms; transform: translate3d(0px, 100px, 0px);" contenteditable="false">Cornea Treatment</div>
+                     </a>
+                  </div>
+               </div>
+               <div class="clearfix services-desc">
+                  <div class="content para-2 editable-content-holder  ">
+                     <a href="javascript:void(0)" class=" link-content">
+                        <div class="not-editable para-2 font-size-16 align-center not-editable para-2 editable-content" style="color: rgb(51, 51, 51); font-family: Muli; line-height: 1.4; border-color: rgb(51, 51, 51); border-style: none; border-width: 0px; border-radius: 0px; letter-spacing: 0px; background-color: rgba(0, 0, 0, 0); opacity: 0; transition-duration: 0ms; transform: translate3d(0px, 100px, 0px);" contenteditable="false">Minor corneal infections are usually treated with antibacterial eye drops. If the problem is severe, it may require more intensive antibiotic or anti fungal treatment to eliminate the infection, as well as steroid eye drops to reduce inflammation.</div>
+                     </a>
+                  </div>
+               </div>
+               <div class="clearfix enquire-btn">
+                  <div class="editable-content-holder editable-button linked-sectionundefined ">
+                     <a href="javascript:void(0)" class=" link-content">
+                        <div class="editable-content">
+                           <div class="btn button link-button block-btn btn-sm " style="font-family:Muli;line-height:1.4;border-style:solid;border-width:1px;border-radius:30px;letter-spacing:0">Enquire Now</div></div>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="services-block-container marginB20" style="width:20%" data-index="6">
+               <div class="col-md-12 services-column">
+                  <div class="marginT10 clearfix">
+                     <div class="editable-image-holder  editable-image-holder services-image dynamic-block-image">
+                        <a href="javascript:void(0)" class=" link-content">
+                           <div class="editable-content  align-center not-editable  marginB15  " style="opacity: 0; transition-duration: 0ms;">
+                              <img src="https://image3.jdomni.in/banner/23032020/1B/D5/C2/666478F302FC7EEFE487F1EB6B_1584962783472.jpg?output-format=webp" style="color:rgb(51, 51, 51);width:100%;height:auto;max-width:250px;max-height:250px;border-color:rgb(204, 204, 204);border-style:none;border-width:0px;border-radius:15px;background-color:rgba(0, 0, 0, 0)" alt="" class="services-image-tag img-loaded"></div>
+                           </a>
+                        </div>
+                     </div>
+                     <div class="marginT10 clearfix">
+                        <div class="content para-1 editable-content-holder  ">
+                           <a href="javascript:void(0)" class=" link-content">
+                              <div class="not-editable para-1 align-center font-size-22 bold not-editable para-1 editable-content" style="color: rgb(51, 51, 51); font-family: Muli; line-height: 1.4; border-color: rgb(51, 51, 51); border-style: none; border-width: 0px; border-radius: 0px; letter-spacing: 0px; background-color: rgba(0, 0, 0, 0); opacity: 0; transition-duration: 0ms; transform: translate3d(0px, 100px, 0px);" contenteditable="false">Glaucoma Treatment</div>
+                           </a>
+                        </div>
+                     </div>
+                     <div class="clearfix services-desc">
+                        <div class="content para-2 editable-content-holder  ">
+                           <a href="javascript:void(0)" class=" link-content">
+                              <div class="not-editable para-2 font-size-16 align-center not-editable para-2 editable-content" style="color: rgb(51, 51, 51); font-family: Muli; line-height: 1.4; border-color: rgb(51, 51, 51); border-style: none; border-width: 0px; border-radius: 0px; letter-spacing: 0px; background-color: rgba(0, 0, 0, 0); opacity: 0; transition-duration: 0ms; transform: translate3d(0px, 100px, 0px);" contenteditable="false">Glaucoma can be treated with eye drops, pills, laser surgery, traditional surgery or a combination of these methods. The goal of any treatment is to prevent loss of vision, as vision loss from glaucoma is irreversible.</div>
+                           </a>
+                        </div>
+                     </div>
+                     <div class="clearfix enquire-btn">
+                        <div class="editable-content-holder editable-button linked-sectionundefined ">
+                           <a href="javascript:void(0)" class=" link-content">
+                              <div class="editable-content">
+                                 <div class="btn button link-button block-btn btn-sm " style="font-family:Muli;line-height:1.4;border-style:solid;border-width:1px;border-radius:30px;letter-spacing:0">Enquire Now</div>
+                              </div>
+                           </a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="services-block-container marginB20" style="width:20%" data-index="7">
+                  <div class="col-md-12 services-column">
+                     <div class="marginT10 clearfix">
+                        <div class="editable-image-holder  editable-image-holder services-image dynamic-block-image">
+                           <a href="javascript:void(0)" class=" link-content">
+                              <div class="editable-content  align-center not-editable  marginB15  " style="opacity: 0; transition-duration: 0ms;">
+                                 <img src="https://image3.jdomni.in/banner/29022020/43/6F/08/E1F77D4894984106D72884F947_1582973638053.jpg?output-format=webp" style="color:rgb(51, 51, 51);width:100%;height:auto;max-width:250px;max-height:250px;border-color:rgb(204, 204, 204);border-style:none;border-width:0px;border-radius:15px;background-color:rgba(0, 0, 0, 0)" alt="" class="services-image-tag img-loaded"></div>
+                              </a>
+                           </div>
+                        </div>
+                        <div class="marginT10 clearfix">
+                           <div class="content para-1 editable-content-holder  ">
+                              <a href="javascript:void(0)" class=" link-content">
+                                 <div class="not-editable para-1 align-center font-size-22 bold not-editable para-1 editable-content" style="color: rgb(51, 51, 51); font-family: Muli; line-height: 1.4; border-color: rgb(51, 51, 51); border-style: none; border-width: 0px; border-radius: 0px; letter-spacing: 0px; background-color: rgba(0, 0, 0, 0); opacity: 0; transition-duration: 0ms; transform: translate3d(0px, 100px, 0px);" contenteditable="false">Refractive Surgery</div>
+                              </a>
+                           </div>
+                        </div>
+                        <div class="clearfix services-desc">
+                           <div class="content para-2 editable-content-holder  ">
+                              <a href="javascript:void(0)" class=" link-content">
+                                 <div class="not-editable para-2 font-size-16 align-center not-editable para-2 editable-content" style="color: rgb(51, 51, 51); font-family: Muli; line-height: 1.4; border-color: rgb(51, 51, 51); border-style: none; border-width: 0px; border-radius: 0px; letter-spacing: 0px; background-color: rgba(0, 0, 0, 0); opacity: 0; transition-duration: 0ms; transform: translate3d(0px, 100px, 0px);" contenteditable="false">Refractive eye surgery improves the refractive state of the eye and decreases or eliminates dependency on glasses or contact lenses. This can include various methods of surgical remodeling of the cornea or cataract surgery.</div>
+                              </a>
+                           </div>
+                        </div>
+                        <div class="clearfix enquire-btn">
+                           <div class="editable-content-holder editable-button linked-sectionundefined ">
+                              <a href="javascript:void(0)" class=" link-content">
+                                 <div class="editable-content">
+                                    <div class="btn button link-button block-btn btn-sm " style="font-family:Muli;line-height:1.4;border-style:solid;border-width:1px;border-radius:30px;letter-spacing:0">Enquire Now</div></div>
+                                 </a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="services-block-container marginB20" style="width:20%" data-index="8">
+                        <div class="col-md-12 services-column">
+                           <div class="marginT10 clearfix">
+                              <div class="editable-image-holder  editable-image-holder services-image dynamic-block-image">
+                                 <a href="javascript:void(0)" class=" link-content">
+                                    <div class="editable-content  align-center not-editable  marginB15  " style="opacity: 0; transition-duration: 0ms;">
+                                       <img src="https://image3.jdomni.in/banner/29022020/3C/CA/8D/47EEA68CD21EAA764AD8E056F7_1582973670046.jpg?output-format=webp" style="color:rgb(51, 51, 51);width:100%;height:auto;max-width:250px;max-height:250px;border-color:rgb(204, 204, 204);border-style:none;border-width:0px;border-radius:15px;background-color:rgba(0, 0, 0, 0)" alt="" class="services-image-tag img-loaded"></div>
+                                    </a>
+                                 </div>
+                              </div>
+                              <div class="marginT10 clearfix">
+                                 <div class="content para-1 editable-content-holder  ">
+                                    <a href="javascript:void(0)" class=" link-content">
+                                       <div class="not-editable para-1 align-center font-size-22 bold not-editable para-1 editable-content" style="color: rgb(51, 51, 51); font-family: Muli; line-height: 1.4; border-color: rgb(51, 51, 51); border-style: none; border-width: 0px; border-radius: 0px; letter-spacing: 0px; background-color: rgba(0, 0, 0, 0); opacity: 0; transition-duration: 0ms; transform: translate3d(0px, 100px, 0px);" contenteditable="false">Retina Treatment</div>
+                                    </a>
+                                 </div>
+                              </div>
+                              <div class="clearfix services-desc">
+                                 <div class="content para-2 editable-content-holder  ">
+                                    <a href="javascript:void(0)" class=" link-content">
+                                       <div class="not-editable para-2 font-size-16 align-center not-editable para-2 editable-content" style="color: rgb(51, 51, 51); font-family: Muli; line-height: 1.4; border-color: rgb(51, 51, 51); border-style: none; border-width: 0px; border-radius: 0px; letter-spacing: 0px; background-color: rgba(0, 0, 0, 0); opacity: 0; transition-duration: 0ms; transform: translate3d(0px, 100px, 0px);" contenteditable="false">The retina is a thin layer of tissue that lines the back of the eye on the inside. The purpose of the retina is to receive light that the lens has focused, convert the light into neural signals and send these signals to the brain for visual recognition.</div>
+                                    </a>
+                                 </div>
+                              </div>
+                              <div class="clearfix enquire-btn">
+                                 <div class="editable-content-holder editable-button linked-sectionundefined ">
+                                    <a href="javascript:void(0)" class=" link-content">
+                                       <div class="editable-content">
+                                          <div class="btn button link-button block-btn btn-sm " style="font-family:Muli;line-height:1.4;border-style:solid;border-width:1px;border-radius:30px;letter-spacing:0">Enquire Now</div></div>
+                                       </a>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="services-block-container marginB20" style="width:20%" data-index="9">
+                              <div class="col-md-12 services-column">
+                                 <div class="marginT10 clearfix">
+                                    <div class="editable-image-holder  editable-image-holder services-image dynamic-block-image">
+                                       <a href="javascript:void(0)" class=" link-content">
+                                          <div class="editable-content  align-center not-editable  marginB15  " style="opacity: 0; transition-duration: 0ms;">
+                                             <img src="https://image2.jdomni.in/banner/23032020/47/22/3F/16DAC9B5466A51CDF80186CD6D_1584962799362.jpg?output-format=webp" style="color:rgb(51, 51, 51);width:100%;height:auto;max-width:250px;max-height:250px;border-color:rgb(204, 204, 204);border-style:none;border-width:0px;border-radius:15px;background-color:rgba(0, 0, 0, 0)" alt="" class="services-image-tag img-loaded"></div>
+                                          </a>
+                                       </div>
+                                    </div>
+                                    <div class="marginT10 clearfix">
+                                       <div class="content para-1 editable-content-holder  ">
+                                          <a href="javascript:void(0)" class=" link-content">
+                                             <div class="not-editable para-1 align-center font-size-22 bold not-editable para-1 editable-content" style="color: rgb(51, 51, 51); font-family: Muli; line-height: 1.4; border-color: rgb(51, 51, 51); border-style: none; border-width: 0px; border-radius: 0px; letter-spacing: 0px; background-color: rgba(0, 0, 0, 0); opacity: 0; transition-duration: 0ms; transform: translate3d(0px, 100px, 0px);" contenteditable="false">Paediatric Ophthalmology</div>
+                                          </a>
+                                       </div>
+                                    </div>
+                                    <div class="clearfix services-desc">
+                                       <div class="content para-2 editable-content-holder  ">
+                                          <a href="javascript:void(0)" class=" link-content">
+                                             <div class="not-editable para-2 font-size-16 align-center not-editable para-2 editable-content" style="color: rgb(51, 51, 51); font-family: Muli; line-height: 1.4; border-color: rgb(51, 51, 51); border-style: none; border-width: 0px; border-radius: 0px; letter-spacing: 0px; background-color: rgba(0, 0, 0, 0); opacity: 0; transition-duration: 0ms; transform: translate3d(0px, 100px, 0px);" contenteditable="false">Our pediatric ophthalmology department is a highly specialized, niche &amp; advanced eye care facility offering expert diagnosis and treatment for the entire gamut of ophthalmic problems in children of various age groups.</div>
+                                          </a>
+                                       </div>
+                                    </div>
+                                    <div class="clearfix enquire-btn">
+                                       <div class="editable-content-holder editable-button linked-sectionundefined ">
+                                          <a href="javascript:void(0)" class=" link-content">
+                                             <div class="editable-content">
+                                                <div class="btn button link-button block-btn btn-sm " style="font-family:Muli;line-height:1.4;border-style:solid;border-width:1px;border-radius:30px;letter-spacing:0">Enquire Now</div>
+                                             </div>
+                                          </a>
+                                       </div>
+                                    </div> -->
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+         <center>
+            <h1>Gallery</h1>
+         </center>
+         <div tabindex="-1" style="width:100%;display:inline-block">
+            <div class=" imgRow ">
+               <div class="" style="width:25%;display:inline-block;padding:30px 15px 0px 15px">
+                  <div class="editable-image-holder  editable-gallery">
+                     <div class="editable-content  gallery-img-container   " style="color:rgb(51, 51, 51);height:inherit;border-color:rgb(51, 51, 51);border-style:none;border-width:0px;border-radius:15px 15px 15px 15px;background-color:rgba(0, 0, 0, 0)">
+                        <img src="https://image3.jdomni.in/banner/26062020/1A/F2/CC/5EF076AEF54A57179F2A8CFB15_1593186402273.jpg?output-format=webp" alt="" class=" img-loaded" draggable="false">
+                     </div>
+                  </div>
+               </div>
+               <div class="" style="width:25%;display:inline-block;padding:30px 15px 0px 15px">
+                  <div class="editable-image-holder  editable-gallery">
+                     <div class="editable-content  gallery-img-container   " style="color:rgb(51, 51, 51);height:inherit;border-color:rgb(51, 51, 51);border-style:none;border-width:0px;border-radius:15px 15px 15px 15px;background-color:rgba(0, 0, 0, 0)">
+                        <img src="https://image2.jdomni.in/banner/26062020/42/1F/6F/BBD18A192287F2066E686933C0_1593186462829.jpg?output-format=webp" alt="" class=" img-loaded" draggable="false">
+                     </div>
+                  </div>
+               </div>
+               <div class="" style="width:25%;display:inline-block;padding:30px 15px 0px 15px">
+                  <div class="editable-image-holder  editable-gallery">
+                     <div class="editable-content  gallery-img-container   " style="color:rgb(51, 51, 51);height:inherit;border-color:rgb(51, 51, 51);border-style:none;border-width:0px;border-radius:15px 15px 15px 15px;background-color:rgba(0, 0, 0, 0)">
+                        <img src="https://image3.jdomni.in/banner/11072022/11/E1/C3/BBA3F9D207AED0C5A0A43068FE_1657534950093.jpg?output-format=webp" alt="" class=" img-loaded" draggable="false">
+                     </div>
+                  </div>
+               </div>
+               <div class="" style="width:25%;display:inline-block;padding:30px 15px 0px 15px">
+                  <div class="editable-image-holder  editable-gallery">
+                     <div class="editable-content  gallery-img-container   " style="color:rgb(51, 51, 51);height:inherit;border-color:rgb(51, 51, 51);border-style:none;border-width:0px;border-radius:15px 15px 15px 15px;background-color:rgba(0, 0, 0, 0)">
+                        <img src="https://image2.jdomni.in/banner/11072022/E5/86/EB/CDA1E0FA260110C9F57342B730_1657535002407.jpg?output-format=webp" alt="" class=" img-loaded" draggable="false">
+                     </div>
+                  </div>
+               </div>
+               <div class="" style="width:25%;display:inline-block;padding:30px 15px 0px 15px">
+                  <div class="editable-image-holder  editable-gallery">
+                     <div class="editable-content  gallery-img-container   " style="color:rgb(51, 51, 51);height:inherit;border-color:rgb(51, 51, 51);border-style:none;border-width:0px;border-radius:15px 15px 15px 15px;background-color:rgba(0, 0, 0, 0)">
+                        <img src="https://image2.jdomni.in/banner/11072022/A7/3D/AA/E0F1AAE97D2140EF7B5EAD9BBC_1657535057573.jpg?output-format=webp" alt="" class=" img-loaded" draggable="false">
+                     </div>
+                  </div>
+               </div>
+               <div class="" style="width:25%;display:inline-block;padding:30px 15px 0px 15px">
+                  <div class="editable-image-holder  editable-gallery">
+                     <div class="editable-content  gallery-img-container   " style="color:rgb(51, 51, 51);height:inherit;border-color:rgb(51, 51, 51);border-style:none;border-width:0px;border-radius:15px 15px 15px 15px;background-color:rgba(0, 0, 0, 0)">
+                        <img src="https://image3.jdomni.in/banner/14102022/FA/58/DA/4BCADB3DC1086898586A3CA524_1665731556747.jpg?output-format=webp" alt="" class=" img-loaded" draggable="false">
+                     </div>
+                  </div>
+               </div>
+               <div class="" style="width:25%;display:inline-block;padding:30px 15px 0px 15px">
+                  <div class="editable-image-holder  editable-gallery">
+                     <div class="editable-content  gallery-img-container   " style="color:rgb(51, 51, 51);height:inherit;border-color:rgb(51, 51, 51);border-style:none;border-width:0px;border-radius:15px 15px 15px 15px;background-color:rgba(0, 0, 0, 0)">
+                        <img src="https://image2.jdomni.in/banner/14102022/F9/06/6C/F5880921C36D77D64BBE2D0E62_1665731556922.jpg?output-format=webp" alt="" class=" img-loaded" draggable="false">
+                     </div>
+                  </div>
+               </div>
+               <div class="" style="width:25%;display:inline-block;padding:30px 15px 0px 15px">
+                  <div class="editable-image-holder  editable-gallery">
+                     <div class="editable-content  gallery-img-container   " style="color:rgb(51, 51, 51);height:inherit;border-color:rgb(51, 51, 51);border-style:none;border-width:0px;border-radius:15px 15px 15px 15px;background-color:rgba(0, 0, 0, 0)">
+                        <img src="https://image3.jdomni.in/banner/14102022/7A/92/79/EF8384F886589F3C0CD6E66E53_1665731556655.jpg?output-format=webp" alt="" class=" img-loaded" draggable="false">
+                     </div>
+                  </div>
+               </div>
+         
          <!-- About End --> 
          <!-- <div class="bg-color-section-home1"></div> -->
          <!-- Service Start --> 
@@ -1057,6 +1734,8 @@
          <!-- Blog End -->
       </div>
       <!-- Page Content End -->
+      <br>
+      <br>
       <section class="mb-4">
          <div class="pbmit-heading-subheading text-center">
             <h4 class="pbmit-subtitle">Testimonials</h4>
